@@ -144,7 +144,7 @@ chrome.extension.onMessage.addListener(
 				// handle requests from keyboardNav module
 				thisLinkURL = request.linkURL;
 				if (thisLinkURL.toLowerCase().substring(0,4) != 'http') {
-					(thisLinkURL.substring(0,1) == '/') ? thisLinkURL = 'http://www.reddit.com' + thisLinkURL : thisLinkURL = location.href + thisLinkURL;
+					(thisLinkURL.substring(0,1) == '/') ? thisLinkURL = 'http://www.hazmatt.org' + thisLinkURL : thisLinkURL = location.href + thisLinkURL;
 					
 				}
 				// Get the selected tab so we can get the index of it.  This allows us to open our new tab as the "next" tab.
@@ -157,7 +157,7 @@ chrome.extension.onMessage.addListener(
 				// handle requests from keyboardNav module
 				thisLinkURL = request.linkURL;
 				if (thisLinkURL.toLowerCase().substring(0,4) != 'http') {
-					(thisLinkURL.substring(0,1) == '/') ? thisLinkURL = 'http://www.reddit.com' + thisLinkURL : thisLinkURL = location.href + thisLinkURL;
+					(thisLinkURL.substring(0,1) == '/') ? thisLinkURL = 'http://www.hazmatt.org' + thisLinkURL : thisLinkURL = location.href + thisLinkURL;
 					
 				}
 				// Get the selected tab so we can get the index of it.  This allows us to open our new tab as the "next" tab.
